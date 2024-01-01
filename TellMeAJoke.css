@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #8d74a9;
+}
+
+.conatiner{
+    width: 95%;
+    max-width: 470px;
+    background: linear-gradient(145deg, rgb(59, 6, 99), black);
+    border-radius: 20px;
+    color: #fff;
+    margin: 100px, auto 0;
+    padding: 45px 50px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 550px;
+}
+
+.conatiner #jokeGenerator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background: brown;
+    width: 100%;
+}
+
+.conatiner #jokeGenerator h1{
+    font-size: 50px;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+}
+
+.conatiner #jokeGenerator h3{
+    font-size: 30px;
+    font-weight: 300;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.conatiner #jokeGenerator h3 span{
+    font-size: 40px;
+}
+
+p{
+    font-size: 30px;
+    box-shadow: 0 0 28px rgba(32, 3, 6, 0.28);
+    font-weight: 500;
+    align-items: center;
+    word-wrap: break-word;
+    line-height: 35px;
+    margin: 20px 0;
+    display: none;
+    background: #fff;
+    color: black;
+}
+
+.conatiner #jokeGenerator button{
+    display: inline-block;
+    background: #136c80;
+    color: #fff;
+    align-items: center;
+    padding: 9px 8px 6px;
+    line-height: 2;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.conatiner #jokeGenerator button h5{
+    font-size: 70px;
+    font-weight: 400;
+    align-items: center;
+    justify-content: center;
+    box-shadow: none;
+}
+
+.conatiner #jokeGenerator button:hover{
+    cursor: pointer;
+    background: #344d83;
+    color: black;
+}
